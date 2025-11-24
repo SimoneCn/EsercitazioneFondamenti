@@ -20,7 +20,8 @@ int matricolaUsata(struct Studente v[],int n, int mat){
 
 int inserisci_studente(struct Studente v[],int n){
     if(n>=NMAX){
-        printf("Hai già raggiunto il numero massimo di studenti");
+        printf("Hai già raggiunto il numero massimo di studenti \n");
+        return n;
     }
     else {
         int mat;
