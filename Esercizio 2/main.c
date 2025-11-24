@@ -1,32 +1,3 @@
-/*
-Esercizio 2 – Temperature, array e funzioni
-Scrivere un programma in C che gestisce temperature giornaliere.
-Chiedere all’utente il numero di giorni N (1 <= N <= 31).
-Dichiarare un array di float di dimensione N.
-Leggere da tastiera le temperature dei N giorni.
-Implementare le seguenti funzioni:
-
-
-float calcola_media(float v[], int n);
-float trova_massimo(float v[], int n);
-float trova_minimo(float v[], int n);
-int conta_maggiori_di_media(float v[], int n);
-
-Nel main:
-
-
-stampare la media delle temperature
-stampare massimo e minimo
-stampare quanti giorni hanno una temperatura maggiore della media
-
-
-Vincoli:
-Non usare variabili globali.
-Le elaborazioni devono avvenire nelle funzioni, non nel main.
-Utilizzare cicli for per scorrere l’array.
-
-*/
-
 #include <stdio.h>
 
 float calcola_media(float v[], int n){
