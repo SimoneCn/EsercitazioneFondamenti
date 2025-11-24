@@ -1,23 +1,3 @@
-
-/* Scrivere un programma in C che:
-Chiede all’utente di inserire una sequenza di numeri interi (positivi, negativi o zero).
-La sequenza termina quando l’utente inserisce 0 (lo 0 non va considerato nei calcoli).
-Alla fine il programma deve stampare:
-
-
-quanti numeri sono stati inseriti
-la somma dei numeri
-la media (float)
-il valore massimo e il minimo
-quanti numeri sono pari e quanti sono dispari
-
-
-Vincoli:
-Utilizzare istruzioni condizionali (if, else).
-Utilizzare un ciclo (while, do…while o for).
-Gestire il caso in cui il primo numero inserito sia 0 (nessun dato valido).
-*/
-
 #include <stdio.h>
 #include <limits.h>
 
